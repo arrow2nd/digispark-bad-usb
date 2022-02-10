@@ -12,7 +12,7 @@ void setup() {
   DigiKeyboard.delay(1000);
 
   // 存在しない猫を見せる
-  DigiKeyboard.print("https\'//thiscatdoesnotexist.com/");
+  DigiKeyboard.print("www.thiscatdoesnotexist.com");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
